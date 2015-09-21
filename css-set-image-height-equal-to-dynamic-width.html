@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="muui-theme-webapp-main">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <title>css test</title>
+    <style type="text/css">
+        ul,li{
+            list-style: none;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            outline: 0
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-appearance: none;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+        }
+        ul{
+            margin:10px;
+        }
+        .container {
+            display: inline-block;
+            position: relative;
+            width: 32%;
+            text-align: center;
+        }
+        .dummy{
+            padding-top: 100%; /* 1:1 aspect ratio */
+            width: 100%;
+            background:url(images/test_3.jpg) no-repeat;
+            -webkit-background-size: 100%;
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<ul>
+    <li class="container">
+        <div class="dummy">
+        </div>
+        <div class="element">
+            some text
+        </div>
+    </li>
+    <li class="container">
+        <div class="dummy">
+        </div>
+        <div class="element">
+            some text
+        </div>
+    </li>
+    <li class="container">
+        <div class="dummy">
+        </div>
+        <div class="element">
+            some text
+        </div>
+    </li>
+</ul>
+</body>
+</html>
